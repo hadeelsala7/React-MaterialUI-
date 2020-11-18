@@ -1,8 +1,9 @@
+const { default: Header } = require("./Header/Header");
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Header></Header>
     </div>
   );
 }
